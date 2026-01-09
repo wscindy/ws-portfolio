@@ -4,95 +4,171 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cindy's List Page</title>
+    <title>Wei-Xuan Li - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p>Hello world! I am ...</p>
-    <nameTitle>
-      Wei-Xuan, Li
-    </nameTitle>
-    <p></p>
-    <p></p>
-    <p>
-      I love exploring new things!
-    </p>
-    <p></p>
-    <p></p>
-    <p></p>
+    <!-- 浮動粒子 -->
+    <div class="floating-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
 
-    <ul>
-      <li>
-        <a href="https://ithelp.ithome.com.tw/users/20151588/ironman/5452"
-          >iThome programming blog:</a
-        >
-        <a href="https://ithelp.ithome.com.tw/users/20151588/ironman/5452"
-          >ALL (72 articles)</a
-        >
-      </li>
-      <p></p>
-      <li>
-        <a href="https://hackmd.io/@SVyBdG8lRPSpwdzoCRxMSQ/rk773vzJi">JavaScript Note (on HackMD)</a>
-      </li>
-      <p></p>
-      <p></p>
-      <p></p>
-      Projects
-            <p></p>
-      <li>
-        <a href="https://ithelp.ithome.com.tw/users/20151588/articles"
-          >Blog posts about Simon Game project:</a
-        >
-        <a href="https://ithelp.ithome.com.tw/articles/10287293">1</a>
-        <a href="https://ithelp.ithome.com.tw/articles/10287514">2</a>
-        <a href="https://ithelp.ithome.com.tw/articles/10287642">3</a>
-      </li>
-      <p></p>
-      <li>
-        <a href="https://wscindy.github.io/simonGame/"
-          >Simon Game on GitHub Pages site (Sound on)</a
-        >
-      </li>
-      <p></p>
-      <li>
-        <a href="https://ithelp.ithome.com.tw/users/20151588/articles"
-          >Blog posts about Calculator JavaScript & React project:</a
-        >
-        <a href="https://ithelp.ithome.com.tw/articles/10309685">1</a>
-      </li>
-            <p></p>
-            <li>
-        <a href="https://wscindy.github.io/Calculator/"
-          >Calculator on GitHub Pages site</a
-        >
-      </li>
-      <p></p>
-      <p></p>
-      <p></p>
-      Other accomplishments
-      <p></p>
-      <li>
-          September 2017 - 
-        <a href="https://www.coursera.org/account/accomplishments/certificate/TYCVL85T6E8P"
-        >Programming for Everybody (Getting Started with Python)</a
-        >
-      </li>
-    </ul>
+    <div class="container">
+      <!-- Hero Section -->
+      <div class="hero">
+        <div class="hero-stats">
+          <span>2 Games</span> × <span>70+ Blog Posts</span> × <span>50+ Database Schema Attempts</span>
+        </div>
+        <div class="scroll-hint">↓ Explore my projects ↓</div>
+      </div>
 
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <a href="mailto: wscindy.lee@gmail.com">
-      <button style="--c: white;">Contact Me</button></a
-    >
-    <p></p>
-    <center></center>
+
+
+      <!-- Featured Projects - 桌遊專案 -->
+      <section>
+        <h2>🎮 Featured Projects</h2>
+        <div class="featured-projects">
+          <!-- Pokemon TCG -->
+          <div class="featured-card">
+            <h3>Pokemon TCG Online</h3>
+            <p class="description">A multiplayer online trading card game with real-time battle system</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">Ruby on Rails</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">WebSocket</span>
+            </div>
+            <div class="project-gif">
+              <!-- 你可以在這裡放 GIF -->
+              <img src="你的pokemon-demo.gif路徑" alt="Pokemon TCG Demo" style="display: none;" />
+              <span>🎴 [ GIF Placeholder - Add your demo GIF here ]</span>
+            </div>
+            <div class="project-links">
+              <a href="你的GitHub連結">
+                <span>📂 GitHub</span>
+              </a>
+              <a href="你的開發心得文章連結">
+                <span>📖 Dev Blog</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Witchcraft -->
+          <div class="featured-card">
+            <h3>Witchcraft Card Game</h3>
+            <p class="description">A strategic card game with unique spell-casting mechanics</p>
+            <div class="tech-stack">
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQLite</span>
+            </div>
+            <div class="project-gif">
+              <!-- 你可以在這裡放 GIF -->
+              <img src="你的witchcraft-demo.gif路徑" alt="Witchcraft Demo" style="display: none;" />
+              <span>🔮 [ GIF Placeholder - Add your demo GIF here ]</span>
+            </div>
+            <div class="project-links">
+              <a href="你的GitHub連結">
+                <span>📂 GitHub</span>
+              </a>
+              <a href="你的開發心得文章連結">
+                <span>📖 Dev Blog</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Other Projects -->
+      <section>
+        <h2>💻 Other Projects</h2>
+        <div class="other-projects">
+          <div class="small-card">
+            <h3>Simon Game</h3>
+            <p>A memory challenge game built with JavaScript</p>
+            <a href="https://wscindy.github.io/simonGame/">
+              <span>🎮 Live Demo</span>
+            </a>
+            <a href="https://ithelp.ithome.com.tw/articles/10287293">
+              <span>📖 Blog</span>
+            </a>
+          </div>
+
+          <div class="small-card">
+            <h3>Calculator</h3>
+            <p>Fully functional calculator with JavaScript & React</p>
+            <a href="https://wscindy.github.io/Calculator/">
+              <span>🧮 Live Demo</span>
+            </a>
+            <a href="https://ithelp.ithome.com.tw/articles/10309685">
+              <span>📖 Blog</span>
+            </a>
+          </div>
+
+          <div class="small-card">
+            <h3>JavaScript Study Notes</h3>
+            <p>Personal learning documentation on HackMD</p>
+            <a href="https://hackmd.io/@SVyBdG8lRPSpwdzoCRxMSQ/rk773vzJi">
+              <span>📝 View Notes</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section>
+        <h2>📝 Blog & Writing</h2>
+        <div class="other-projects">
+          <div class="small-card">
+            <h3>iThome Programming Blog Series</h3>
+            <p>Complete collection of technical articles (70+ articles)</p>
+            <a href="https://ithelp.ithome.com.tw/users/20151588/ironman/5452">
+              <span>📖 Read All Articles</span>
+            </a>
+          </div>
+
+          <div class="small-card">
+            <h3>Coursera Certificate</h3>
+            <p>Programming for Everybody (Getting Started with Python) - September 2017</p>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/TYCVL85T6E8P">
+              <span>🏆 View Certificate</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <div class="about">
+        <p>I love exploring new things!</p>
+        <span class="name-title">Wei-Xuan Li</span>
+        <p>Designing card games where every ability, interaction, and strategy starts with a well-crafted database schema.</p>
+      </div>
+
+      <!-- Contact -->
+      <div class="contact-section">
+        <a href="mailto:wscindy.lee@gmail.com">
+          <button>Contact Me</button>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
