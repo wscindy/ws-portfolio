@@ -266,27 +266,30 @@
         object-fit: cover;
       }
 
-      .project-links {
-        display: flex;
-        gap: 15px;
-        margin-top: 25px;
-      }
+.project-links {
+  display: flex;
+  flex-wrap: wrap;  /* 加這行 */
+  gap: 15px;
+  margin-top: 25px;
+}
 
-      .project-links a {
-        flex: 1;
-        padding: 15px 25px;
-        background: rgba(0, 255, 255, 0.1);
-        border: 2px solid rgba(0, 255, 255, 0.4);
-        border-radius: 10px;
-        color: inherit;
-        text-decoration: none;
-        text-align: center;
-        font-weight: 600;
-        font-size: 1rem;
-        position: relative;
-        overflow: hidden;
-        transition: all 0.3s;
-      }
+.project-links a {
+  flex: 1 1 auto;  /* 改這行，原本是 flex: 1 */
+  min-width: 150px;  /* 加這行，設定最小寬度 */
+  padding: 15px 25px;
+  background: rgba(0, 255, 255, 0.1);
+  border: 2px solid rgba(0, 255, 255, 0.4);
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
 
       .project-links a::before {
         content: '';
